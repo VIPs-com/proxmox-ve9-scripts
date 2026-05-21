@@ -1,0 +1,10 @@
+# Exemplo: cluster com 3 nós (mínimo para quórum Corosync)
+PVE_MODE="cluster"
+TIMEZONE="America/Sao_Paulo"
+DEBIAN_CODENAME="trixie"
+CLUSTER_NETWORK="192.168.1.0/24"
+CLUSTER_NODES_CONFIG=(
+  "192.168.1.10 pve1"
+  "192.168.1.11 pve2"
+  "192.168.1.12 pve3"
+)
