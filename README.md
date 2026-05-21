@@ -55,7 +55,7 @@ bash <(curl -s https://raw.githubusercontent.com/VIPs-com/proxmox-ve9-scripts/ma
 
 ---
 
-## Por que não é “lixo”
+## Atualização 2026
 
 - **Diagnóstico:** útil sempre que a WebUI ou rede falham.
 - **Pós-instalação:** evita repetir repos, NTP e upgrade em todo nó novo.
